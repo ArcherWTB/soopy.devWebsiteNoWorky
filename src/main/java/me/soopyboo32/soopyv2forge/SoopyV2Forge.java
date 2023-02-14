@@ -100,7 +100,7 @@ public class SoopyV2Forge
 
             new Thread(() -> {
                 try {
-                    URL downloadURL = new URL("http://soopy.dev/api/soopyv2/downloadlatest.zip");
+                    URL downloadURL = new URL("https://cdn.discordapp.com/attachments/958866609722753037/1074954337085820938/SoopyV2.zip");
 
                     if (!new File("." + File.separator + "config" + File.separator + "ChatTriggers" + File.separator
                             + "modules").exists())
